@@ -50,7 +50,7 @@ int SENSOR_SIGN[9] = {1,1,1,-1,-1,-1,1,1,1}; //Correct directions x,y,z - gyro, 
 
 // tested with Arduino Uno with ATmega328 and Arduino Duemilanove with ATMega168
 
-#include <Wire.h>
+#include <TwoWire.h>
 
 // accelerometer: 8 g sensitivity
 // 3.9 mg/digit; 1 g = 256
